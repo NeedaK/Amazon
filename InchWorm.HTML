@@ -3,28 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <title>Product Page</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .product-container {
+      display: flex;
+      border: 1px solid #ccc;
+      margin-top: 20px;
+    }
+
+    .product-image img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .product-details {
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 24px;
+    }
+
+    .price {
+      color: #E44D26;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .rating {
+      color: #FFD700; /* gold color for stars */
+    }
+
+    .rating span {
+      color: #333;
+      font-size: 14px;
+      margin-left: 5px;
+    }
+
+    .add-to-cart {
+      background-color: #FF9900;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .add-to-cart:hover {
+      background-color: #cc7a00;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <!-- Navigation, search bar, user account links -->
-  </header>
 
-  <aside>
-    <!-- Sidebar content such as deals or ads -->
-  </aside>
+<div class="product-container">
+  <div class="product-image">
+    <!-- Replace with your image path -->
+    <img src="product.jpg" alt="Product Image">
+  </div>
+  <div class="product-details">
+    <h1>Starbucks Reusable Color Changing 6 Hot Cups</h1>
+    <p class="price">$23.99</p>
+    <div class="rating">
+      <!-- Assume 5-star rating for simplicity -->
+      ★★★★★
+      <span>121 ratings</span>
+    </div>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+</div>
 
-  <main>
-    <section class="product-display">
-      <!-- Product image and details -->
-    </section>
-    <section class="product-purchase">
-      <!-- Price, add to cart button, etc. -->
-    </section>
-  </main>
-
-  <footer>
-    <!-- Copyright and other legal information -->
-  </footer>
 </body>
 </html>
