@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header, footer {
+  background-color: #ececec;
+  padding: 10px 0;
+}
+
+.product-display {
+  /* Styles for the product image and details */
+}
+
+.product-purchase {
+  /* Styles for the purchase section */
+}
+
+aside {
+  /* Sidebar styles */
+}
+
+/* Add responsive design, colors, typography as per the design you're mimicking */
